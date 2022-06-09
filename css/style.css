@@ -248,6 +248,14 @@ section#img02 {
     
 }
 
+.blocos {
+    width: 850px;
+    /* height: 350px; */
+    border: 1px solid black;
+    box-shadow: 1px 2px 7px;
+    border-radius: 2%;
+    margin: 50px;
+}
 
 /* ============================== THIRD ============================== */
 @media screen and (max-width: 600px) {
