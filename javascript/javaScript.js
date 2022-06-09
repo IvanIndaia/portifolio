@@ -9,5 +9,5 @@ function Start() {
     // jog2.innerHTML = `${jogador2}`
 
     document.getElementById("Start").style.display = 'none'
-    document.querySelector("body").style.overflow = 'hidden'
+    document.querySelector("body").style.overflow = 'auto'
 }
