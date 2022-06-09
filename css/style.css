@@ -121,10 +121,9 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
-    font-family: var(--font3);
+    padding-left: 25px;
     font-size: 3.5vw;
-    height: 100vh;
+    height: 105vh;
 }
 
 /* ================ SECTION NORMAL ================ */
