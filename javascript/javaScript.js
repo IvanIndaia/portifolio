@@ -1,3 +1,5 @@
+
+
 function Start() {
     // let jogador1 = prompt("Digite o nome do Jogador 1")
     // let jogador2 = prompt("Digite o nome do Jogador 2")

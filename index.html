@@ -14,7 +14,9 @@
 </head>
 
 <body>
-    <!-- <div class="container"> -->
+
+    <!-- ================================== HEADER ================================== -->
+
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="navbar-brand"><img src="images/favicon.ico" alt=""> </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
@@ -32,8 +34,8 @@
             </ul>
         </div>
     </nav>
-    <!-- </div> -->
 
+    <!-- ================================== SECTION HOME ================================== -->
     <section class="bgimage normal" id="home">
         <div class="container-fluid">
             <div class="row">
@@ -45,26 +47,88 @@
         </div>
     </section>
 
-    <section class="detalhada">
-        <div>
-            <img src="images/back.jpeg" alt="">
-        </div>
-    </section>
-
+    <!-- ================================== SECTION 1 ================================== -->
     <section class="normal">
-        <div>
-            <img src="images/back.jpeg" alt="">
+        <div id="meuCarrossel" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-bs-target="#meuCarrossel" data-slide-to="0" class="active"></li>
+                <li data-bs-target="#meuCarrossel" data-slide-to="1"></li>
+                <li data-bs-target="#meuCarrossel" data-slide-to="2"></li>
+                <li data-bs-target="#meuCarrossel" data-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div
+                        class="bg-warning text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
+                        <!-- <img src="images/Interview Pri.png" alt=""></div> -->
+
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="bg-info text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
+                        <!-- <img src="images/Interview Topaz.png" alt=""></div> -->
+                        Oferta 2
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div
+                        class="bg-danger text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
+                        <!-- <img src="images/Interview.png" alt=""></div> -->
+                        Oferta 3
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div
+                        class="bg-success text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
+                        <!-- <img src="images/English Class.png" alt=""></div> -->
+                        Oferta 4
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#meuCarrossel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#meuCarrossel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
     </section>
 
-    <section class="detalhada">
-        <div>
-            <img src="images/back.jpeg" alt="">
+    <!-- ================================== SECTION 2 ================================== -->
+    <section class="detalhada" id="img01">        
+       
+    </section>
+
+    <!-- ================================== SECTION 3 ================================== -->
+    <section class="normal">
+       
+    </section>
+
+    <!-- ================================== SECTION 4 ================================== -->
+    <section class="detalhada" id="img02">
+        
+    </section>
+
+    <!-- ================================== SECTION 5 ================================== -->
+    <section class="normal">
+       
+    </section>
+
+    <!-- ================================== SECTION FOOTER ================================== -->
+    <section class="bgimage" id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <!-- <h2 class="hero_title">Olá, Eu sou Ivan Oliveira</h2>
+                    <p class="hero_desc">Eu sou um professional Front-End Developer</p> -->
+                </div>
+            </div>
         </div>
     </section>
 
-
-    <!-- ================================== Start ======================== -->
+    <!-- ================================== 
+        Start 
+        ======================== -->
     <div id="Start">
         <div id="welcome">
             Ivan Alex de Oliveira
@@ -73,9 +137,13 @@
             Bem-Vindo!
         </div>
         <button class="btn" id="starter" onclick="Start()"> Entrar </button>
-
     </div>
+    <!-- ================================== 
+        Start end
+        ======================== -->
 
+
+    <!---->
     <script src="javascript/javaScript.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
