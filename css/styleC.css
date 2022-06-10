@@ -74,9 +74,9 @@ a {
 }
 
 #linkedin:hover {
-    background-color: rgb(199, 12, 12);
+    background-color: rgba(138, 142, 141, 0.314);
     color: white;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 #inage:hover {
@@ -127,36 +127,6 @@ section {
     height: 100vh;
 }
 
-/* ================ SECTION NORMAL ================ */
-.normal {
-    background-color: white;
-    color: black;
-}
-
-/* ================ SECTION DETALHADA ================ */
-.detalhada {
-    background-image: url('../images/personalizado.jpg');
-    color: white;
-    /* background-image: url(); */
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
-    background-size: cover;
-    /* background-attachment: fixed; */
-}
-
-section#img01 {
-    background-image: url(../images/personalizado.jpg);
-    background-position: right center;
-}
-
-section#img02 {
-    background-image: url(../images/NY-City.png);
-}
-
-.pgbr-carousel-item {
-    height: 400px;
-}
-
-
 /* ========== RODAPÉ ========== */
 .rodape {
     /*border: 1px solid red;*/
@@ -204,40 +174,6 @@ section#img02 {
     font-family: 'Righteous', sans-serif;
     text-align: center;
     margin: 25px;
-}
-
-.bgimage {
-    height: 100vh;
-    background: url('../images/perfil.jpeg');
-    background-size: cover;
-    opacity: 0.6;
-    position: relative;
-    border: 1px solid black;
-}
-
-.bgimageFooter {
-    height: 100vh;
-    background-color: black;
-    background-size: cover;
-    position: relative;
-}
-
-.hero_title {
-    font-size: 4.5rem;
-}
-
-.hero_desc {
-    font-size: 2rem;
-}
-
-.hero-text {
-    font-family: 'lora-bold';
-    text-align: left;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
 }
 
 #carro-sel {

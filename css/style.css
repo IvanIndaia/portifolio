@@ -117,7 +117,7 @@ section {
     padding: 10px;
     font-size: 3.5vw;
     height: 105vh;
-    box-shadow: 1px 1px 80px red;
+    box-shadow: 1px 1px 8000px rgba(255, 0, 0, 0.468);
 }
 
 /* ============= SECTION NORMAL ============= */
@@ -129,7 +129,6 @@ section {
 
 /* ============= SECTION DETALHADA ============= */
 .detalhada {
-    background-image: url('../images/personalizado.jpg');
     color: white;
     /* background-image: url(); */
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
@@ -146,11 +145,36 @@ section {
 
 #secLeft {
     width: 30%;
-    /* display: block; */
+    text-align: center;
+    border-radius: 2%;
 }
 
-#secRight {
+#secLeft > div{
+    font-family: 'poppins-medium', sans-serif;
+    color: white;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.455);
+    border-radius: 2%;
+}
 
+#secLeft > div >h6 {
+    font-size: 14x;
+    font-family: 'space', 'Lucida Sans', 'Lucida Sans Regular';
+    color: yellow;
+    margin: 5px;
+}
+
+#secLeft > div >h3 {
+    font-size: 23px;
+    color: white;   
+    margin: 2px;
+    padding: 2px;
+}
+#secLeft > div >h3:hover {
+    transition: 3s;
+    font-size: 26px;
+    background-color: rgba(127, 255, 212, 0.203);
+    cursor: grab;
 }
 
 #perfil {
@@ -158,30 +182,31 @@ section {
     /* opacity: 0.9; */
     /* border: 2px solid rgba(0, 0, 0, 0.258); */
     border-radius: 5%;
-    background-color: rgba(254, 254, 254, 0.273);
+    /* background-color: rgba(212, 207, 207, 0.059); */
 }
 
-section#img01 {
+#home {
     background-image: url(../images/personalizado.jpg);
-    background-position: right center;
 }
 
-section#img02 {
+#myWorks {
     background-image: url(../images/NY-City.png);
+    opacity: 0.5;
 }
 
-section#img03 {
-    background-image: url(../images/personalizado.jpg)
+#myWorks > div {
+    width: 300px;
+    border: 1px solid black;
+    
+}
+
+#others {
+    background-image: url(../images/tech/LaseCity.png)
 }
 
 .pgbr-carousel-item {
     height: 450px;
     border-radius: 1%;
-}
-
-#carro-sel {
-    /* width: 100%;
-    overflow: visible; */
 }
 
 .blocos {
@@ -192,7 +217,6 @@ section#img03 {
     border-radius: 2%;
     margin: 50px;
 }
-
 
 /*  ================================================================
     ============================ FOOTER ============================
