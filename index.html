@@ -36,56 +36,66 @@
     </nav>
 
     <!-- ================================== SECTION HOME ================================== -->
-    <section class="bgimage normal" id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h2 class="hero_title">Olá, Eu sou Ivan Oliveira</h2>
-                    <p class="hero_desc">Professional Front-End Developer</p>
+    <section class="detalhada d-md-flex" id="home img03">
+        <div id="secLeft">
+            <div>
+                <img id="perfil" src="images/IvanAlex.png" alt="">
+                Olá, Eu sou Ivan Oliveira!
+            </div>
+            <div>
+                
+            </div>
+        </div>
+        <div id="secRight carro-sel">
+            <div id="meuCarrossel" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-bs-target="#meuCarrossel" data-slide-to="0" class="active"></li>
+                    <li data-bs-target="#meuCarrossel" data-slide-to="1"></li>
+                    <li data-bs-target="#meuCarrossel" data-slide-to="2"></li>
+                    <li data-bs-target="#meuCarrossel" data-slide-to="3"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1">
+                        <div class="bg-dark text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
+                            <!-- <img class="d-block w-100"src="images/tech/Programmer1.jpg" alt=""> -->
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1">
+                        <div
+                            class="bg-pri-out text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
+                            <!-- <img src="images/carousel/cordel.png" alt=""> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1">
+                        <div
+                            class="bg-dark text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
+                            <!-- <img src="images/carousel/glass.png" alt=""> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1">
+                        <div
+                            class="bg-pri-out text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
+                            <!-- <img src="images/carousel/memory.png" alt=""> -->
+                        </div>
+                    </div>
                 </div>
+                <a class="carousel-control-prev" href="#meuCarrossel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#meuCarrossel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- ================================== SECTION 1 ================================== -->
-    <section class="normal" id="carro-sel">
-        <div id="meuCarrossel" class="carousel slide" data-ride="carousel">
-            <ul class="carousel-indicators">
-                <li data-bs-target="#meuCarrossel" data-slide-to="0" class="active"></li>
-                <li data-bs-target="#meuCarrossel" data-slide-to="1"></li>
-                <li data-bs-target="#meuCarrossel" data-slide-to="2"></li>
-                <li data-bs-target="#meuCarrossel" data-slide-to="3"></li>
-            </ul>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
-                        <img src="images/carousel/android.png" alt="">
+    <section class="normal">
 
-                    </div>
-                </div>
-                <div class="carousel-item ">
-                    <div class="text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
-                        <img src="images/carousel/cordel.png" alt="">
-                    </div>
-                </div>
-                <div class="carousel-item ">
-                    <div class="text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
-                        <img src="images/carousel/glass.png" alt="">
-                    </div>
-                </div>
-                <div class="carousel-item ">
-                    <div class="text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
-                        <img src="images/carousel/memory.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#meuCarrossel" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#meuCarrossel" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
     </section>
 
     <!-- ================================== SECTION 2 ================================== -->
@@ -95,7 +105,7 @@
 
     <!-- ================================== SECTION 3 ================================== -->
     <section class="normal d-flex">
-        <div class="blocos">
+        <!-- <div class="blocos">
 
         </div>
         <div class="blocos">
@@ -113,7 +123,7 @@
         </div>
         <div class="blocos">
 
-        </div>
+        </div> -->
     </section>
 
     <!-- ================================== SECTION 4 ================================== -->
@@ -128,27 +138,7 @@
 
     <!-- ================================== SECTION FOOTER ================================== -->
     <section class="bgimageFooter" id="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <div class="col-md">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Have a Questions?</h2>
-                            <div class="block-23 mb-3">
-                                <ul>
-                                    <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San
-                                            Francisco, California, USA</span></li>
-                                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929
-                                                210</span></a></li>
-                                    <li><a href="#"><span class="icon icon-envelope"></span><span
-                                                class="text">info@yourdomain.com</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </section>
 
     <!-- ================================== 

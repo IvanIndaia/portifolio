@@ -11,23 +11,12 @@ body {
 
 }
 
-/* ========== INTERFACE ========== */
-.interface {
-    /*border: 1px solid red;*/
+/*  ================================================================
+    ========================== HEADER ===========================
+    ================================================================ */
 
-    box-shadow: 1px 2px 11px rgb(59, 59, 59);
-    border-radius: 7px;
-    width: 67%;
-    overflow: auto;
-    margin: auto;
-    position: relative;
-}
-
-/* ========== CABEÇALHO ========== */
 /* === Left ==== */
 #headerLeft {
-    /*border: 1px solid red;*/
-
     overflow: hidden;
     width: 64%;
     height: 270px;
@@ -36,7 +25,7 @@ body {
     /* border: 1px solid black; */
 }
 
-#headerLeft>h3 {
+#headerLeft > h3 {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     margin: 10px;
@@ -84,7 +73,11 @@ a {
     border: 2px solid rgb(248, 247, 247);
 }
 
-/* ========== CORPO ========== */
+
+/*  ================================================================
+    ============================ BODY ==============================
+    ================================================================ */
+
 .corpo {
     padding: 25px;
     margin-top: 300px;
@@ -108,7 +101,7 @@ a {
     text-align: center;
 }
 
-h3>p {
+h3 > p {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-family: 'Mukta', sans-serif;
     text-align: justify;
@@ -116,23 +109,25 @@ h3>p {
     /* padding-top: 2px; */
 }
 
-/* ================ SECTION ================ */
+/* ======================== SECTION ======================== */
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 25px;
+    padding: 10px;
     font-size: 3.5vw;
     height: 105vh;
+    box-shadow: 1px 1px 80px red;
 }
 
-/* ================ SECTION NORMAL ================ */
+/* ============= SECTION NORMAL ============= */
 .normal {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
+    /* box-shadow: 1px 1px 80px red; */
 }
 
-/* ================ SECTION DETALHADA ================ */
+/* ============= SECTION DETALHADA ============= */
 .detalhada {
     background-image: url('../images/personalizado.jpg');
     color: white;
@@ -140,6 +135,30 @@ section {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
     background-size: cover;
     /* background-attachment: fixed; */
+}
+
+.detalhada > div {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+#secLeft {
+    width: 30%;
+    /* display: block; */
+}
+
+#secRight {
+
+}
+
+#perfil {
+    width: 100%;
+    /* opacity: 0.9; */
+    /* border: 2px solid rgba(0, 0, 0, 0.258); */
+    border-radius: 5%;
+    background-color: rgba(254, 254, 254, 0.273);
 }
 
 section#img01 {
@@ -151,15 +170,35 @@ section#img02 {
     background-image: url(../images/NY-City.png);
 }
 
+section#img03 {
+    background-image: url(../images/personalizado.jpg)
+}
+
 .pgbr-carousel-item {
-    height: 550px;
+    height: 450px;
+    border-radius: 1%;
+}
+
+#carro-sel {
+    /* width: 100%;
+    overflow: visible; */
+}
+
+.blocos {
+    width: 850px;
+    /* height: 350px; */
+    border: 1px solid black;
+    box-shadow: 1px 2px 7px;
+    border-radius: 2%;
+    margin: 50px;
 }
 
 
-/* ========== RODAPÉ ========== */
-.rodape {
-    /*border: 1px solid red;*/
+/*  ================================================================
+    ============================ FOOTER ============================
+    ================================================================ */
 
+.rodape {
     text-align: center;
     padding: 17px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.131), rgb(224, 221, 221), rgba(255, 255, 255, 0.549));
@@ -189,37 +228,15 @@ section#img02 {
     color: white;
 }
 
-#welcome {
+/* #welcome {
     font-family: 'poppins', 'poppins-light', 'poppins-medium';
     position: fixed;
     left: 10px;
     top: 10px;
     font-size: 25px;
     color: rgba(150, 79, 85, 0.988);
-}
+} */
 
-#welcome1 {
-    /* font-family: 'poppins', 'poppins-light', 'poppins-medium'; */
-    font-family: 'Righteous', sans-serif;
-    text-align: center;
-    margin: 25px;
-}
-
-.bgimage {
-    height: 100vh;
-    background: url('../images/perfil.jpeg');
-    background-size: cover;
-    opacity: 0.6;
-    position: relative;
-    border: 1px solid black;
-}
-
-.bgimageFooter {
-    height: 100vh;
-    background-color: black;
-    background-size: cover;
-    position: relative;
-}
 
 .hero_title {
     font-size: 4.5rem;
@@ -239,27 +256,49 @@ section#img02 {
     color: black;
 }
 
-#carro-sel {
-    width: 97%;
-    align-items: right;
-    left: 1px;
-    margin-left: 0px;
-    padding: 10px;
-    
-}
-
-.blocos {
-    width: 850px;
-    /* height: 350px; */
-    border: 1px solid black;
-    box-shadow: 1px 2px 7px;
-    border-radius: 2%;
-    margin: 50px;
-}
-
-/* ============================== THIRD ============================== */
+/* ============================== MEDIA ============================== */
 @media screen and (max-width: 600px) {
+
+    /*  ====================================================
+    ====================== HEADER MEDIA=====================
+    ======================================================== */
     #myNav {
         margin-left: 10px;
     }
+
+    /*  ====================================================
+    ======================= BODY MEDIA =====================
+    ======================================================== */
+
+    #home {
+        display: flex;
+        align-content: center;
+    }
+
+    .detalhada > div {
+        /* display: block; */
+        text-align: center;
+    }
+
+    #secRight {
+        width: 100%;
+        border: 10px solid yellow;
+    }
+
+    #secLeft {
+        width: 45%;
+        height: 35%;
+        /* border: 10px solid yellow; */
+        overflow: hidden;
+    }
+
+    .pgbr-carousel-item {
+        height: 350px;
+        border-radius: 1%;
+    }
+
+    /*  ====================================================
+    ====================== FOOTER MEDIA ====================
+    ======================================================== */
+
 }

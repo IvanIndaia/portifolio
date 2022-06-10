@@ -1,0 +1,82 @@
+Ivan Alex de Oliveira
+Salto - SP
+Contato: +55 (19) 9.9248-1225
+E-mail: ivan.indaia@gmail.com
+www.linkedin.com/in/ivan-alex-oliveira
+Objetivo
+Desenvolvedor Front-End
+Resumo
+Eu sou Ivan Alex de Oliveira, ajudo empresas a obterem lucros e conquistarem suas metas. Sou
+Graduado em Tecnologia da Informação e tenho mais de 14 anos de experiência profissional.
+Tenho em minha história vivência e capacidade para as funções de Analista de Desenvolvimento,
+Analista de Banco de Dados e Analista de Suporte TI, sempre trabalhando em equipe com excelência e
+forte liderança.
+Eu pude aprender e desenvolver habilidades estratégicas que me proporcionam crescimento profissional
+mantendo a capacidade de inovação.
+Acredito em grandes propósitos por participar ativamente em projetos conclusos e permaneço sempre
+disposto a conduzir novos desafios com o mesmo sucesso.
+Tenho necessidade de realização a cada instante, tendo o comprometimento de vencer os obstáculos
+com confiança, fazendo as coisas acontecerem.
+Educação | Graduação | Habilitação
+Tecnologia da Informação com ênfase em redes de computadores - FATEC/2013
+Inglês - Intermediário
+Experiência
+TK Logística do Brasil - 05/2022 a atual
+Função: Analista de Sistemas Júnior
+Projetos relacionado a sistemas, ERP(Senior) e TMS (Migração web), Sistemas SaaS, Banco de dados
+SQL Server, documentação (PMO), Implantação de metodologias ÁGIL(ITIL).
+_________________________________________________________________________________
+TK Logística do Brasil - 04/2018 a 04/2022
+Função: Analista de Suporte TI Júnior
+Suporte Help-Desk, Projetos de Infraestrutura, Implantação de Sistema WMS e TMS, Monitoramento do
+Ambiente: Sistemas, Infraestrutura e Back-ups, Firewall (SonicWall), Oracle Cloud, Antivírus
+(Kaspersky), Windows Server, AD, FS, AP, VPN, Office 365, Migração de TENANT O365, MFA, AIP,
+Criação de Relatórios SQL Oracle, Atuação na Governança de TI e Segurança, Restauração de ambiente
+Windows, VMWare, CSC(BPM) e Implantação da LGPD.
+___________________________________________________________________________________TK Logística do Brasil - 10/2015 a 03/2018
+Função: Assistente de TI.
+Suporte Help-Desk, Suporte de Sistema WMS e TMS, Monitoramento do Ambiente: Sistemas,
+Infraestrutura e Back-ups, Impressoras Multifuncionais e Térmicas, Firewall (SonicWall), Antivírus
+(Kaspersky), Windows Server, AD, FS, AP, VPN, Office365, Migração O365, VMWare, Restauração de
+ambiente Windows, Formatação e Instalação de programas.
+___________________________________________________________________________________
+Autônomo - 12/2011 a 10/2015
+Função: Técnico de Informática
+Formatação, instalação de programas, montagem de computadores, configuração de rede, internet
+roteadores, switchs, impressoras. Manutenção em notebooks/desktops e servidores.
+___________________________________________________________________________________
+PROCAM - Gestão de Automação Industrial - 06/2011 a 12/2011
+Função: Estagiário
+Suporte ao Sistema Caprind - ERP/MRP/CRM/ISO/SPED/NFE.
+__________________________________________________________________________________
+FIEC - Fundação Indaiatubana de Educação e Cultura - 06/2008 a 06/2009
+Função: Estagiário
+Ministrar aulas de informática básica (Windows, Word e Excel).
+Habilidades | Cursos | Certificados
+Básico: PHP | Fundamentos de Java | Java Básico | WordPress
+Intermediário: HTML5 e CSS3 | JavaScript | MySQL | Java POO | Python
+Avançado: Algorítmo
+Cursando: Desenvolvimento WEB
+Conteúdo: HTML, CSS, JavaScritp, Firebase, Jquery, Bootstrap, Node.js, Mongo DB, React Js, Redux,
+Router e Electron.
+Lógica de Programação, Conceitos de Hardware, BD I e II, S.O., Conceitos básicos de Redes, Análise
+e projeto de sistemas.
+Windows Server 2008, 2012 | SQL Server, AD, FS, Oracle Cloud, Kasperky | Sistema WMS | Sistema
+TMS | SQL | Office 365 | VMWare | HelpDesk, VB, VPN, Firewall (SonicWall) | Pacote office avançado |
+Segurança da Informação.Competências
+Capacidade para atuar como Analista de Desenvolvimento, Analista de Banco de Dados e Analista de
+Suporte TI.
+Realização das fases de elaboração de requisitos e da programação de sistemas, desenvolvimento, teste
+e implementação.
+Identificação e orientação na solução de problemas | Elaboração, coordenação e orientação em
+atividades de correção e manutenção dos programas.
+Codificação e realização de testes | Preparação de documentação e produção de manuais de operação.
+Implementação e manutenção de novos sistemas | Ajuste de sistemas existentes para acompanhamento
+das mudanças e necessidades dos usuários.
+Administração de banco de dados, envolvendo manutenção de estrutura e implementação de novos
+processos de software, métodos de acesso e dimensionamento de hardware.
+Manter a segurança conforme políticas da empresa | Realização da seleção, implantação e manutenção
+de hardware e software básico e de apoio.
+Definição de controle de acesso aos recursos | Participação na documentação de rotina |
+Acompanhamento de desempenho dos recursos técnicos instalados.
+Proatividade | Boa comunicação | Assertividade | Flexibilidade.
