@@ -186,6 +186,11 @@ section {
 }
 
 #home {
+    background-image: url(../images/tech/Programmer4.jpg);
+    background-size: cover;
+}
+
+#carrocel {
     background-image: url(../images/personalizado.jpg);
 }
 
@@ -197,7 +202,7 @@ section {
 #myWorks > div {
     width: 300px;
     border: 1px solid black;
-    
+
 }
 
 #others {
