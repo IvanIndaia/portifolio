@@ -108,11 +108,11 @@ h3>p {
 section {
     position: static;
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    /* padding-bottom: 10vh; */
     line-height: 2em;
     padding: 10px;
     font-size: 3.5vw;
-    height: 105vh;
+    height: 100vh;
     box-shadow: 1px 1px 8000px rgba(255, 0, 0, 0.468);
 }
 
@@ -143,17 +143,35 @@ section {
 }
 
 #home>div {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
-section>div>h4 {
-    font-family: 'Indie Flower', cursive;
+#home>div>h4 {
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    
+}
+
+#home>div>h1 {
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Space Mono', monospace;
     font-size: 35px;
+    box-decoration-break: slice;
+}
+#stng {
+    color: rgb(24, 17, 115);
+    box-shadow: 1px 2px 30px black;
+    padding: 3px;
+    border-radius: 15%;
 }
 
-section>div>h1 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 55px;
+#home>div>h3 {
+    margin-top: 90px;
+    font-family: 'Space Mono', monospace;
+    font-size: 23px;
+    box-shadow: 1px 2px 30px black;
+    color: rgba(255, 255, 255, 0.358);
 }
 
 #carrocel {
