@@ -188,6 +188,7 @@ section {
 #home {
     background-image: url(../images/tech/Programmer4.jpg);
     background-size: cover;
+    opacity: 0.5;
 }
 
 #carrocel {
