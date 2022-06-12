@@ -16,47 +16,48 @@
 <body>
 
     <!-- ================================== HEADER ================================== -->
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="navbar-brand"><img src="images/favicon.ico" alt=""> </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a style="margin-left: 0;" href="">
-            <img style="width: 4%; margin: 0" src="images/IvanAlex.png" alt="">
-        </a>
-        <div id="myNav" class="collapse navbar-collapse justify-content-end">
-            
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="html/curriculo.html" >Currículo</a></li>
-                <li class="nav-item"><a class="nav-link" href="#summary">Resumo</a></li>
-                <li class="nav-item"><a class="nav-link" href="#myWorks">Meu Trabalhos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#aboutMe">Sobre Mim</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
-                <!-- <li class="btn btn-primary">Comprar</li> -->
-            </ul>
+    <div class="barraNav">
+        <div class="photoPerfil bg-dark">
+            <div id="img">
+                <img src="images/IvanAlex.png" alt="Ivan Oliveira">
+            </div>
         </div>
-    </nav>
+        <div class="navegacao bg-dark">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="navbar-brand"><img src="images/favicon.ico" alt=""> </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- <div id="photoPerfil">
+                    <div id="img">
+                        <img src="images/IvanAlex.png" alt="Ivan Oliveira">
+                    </div>
+                </div> -->
+                <div id="myNav" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="html/curriculo.html">Currículo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#summary">Resumo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#myWorks">Meu Trabalhos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#aboutMe">Sobre Mim</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                        <!-- <li class="btn btn-primary">Comprar</li> -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
 
     <!-- ================================== SECTION HOME ================================== -->
-    <section id="home">
-        <h1>EU SOU IVAN OLIVEIRA</h1>
+    <section class="normal d-flex flex-column justify-content-start" id="home">
+        <div>
+            <h4>Olá, Seja Bem-Vindo</h4>
+            <h1>EU SOU IVAN OLIVEIRA</h1>
+        </div>
     </section>
 
     <!-- ================================== SECTION 0 ================================== -->
     <section class="detalhada d-md-flex" id="carrocel">
-        <!-- <div id="secLeft">
-            <div>
-                <img id="perfil" src="images/IvanAlex.png" alt="">
-            </div>
-            <div>
-                <h6><strong>Olá,<br> SEJA BEM-VINDO!</strong></h6>
-            </div>
-            <div>
-                <h3>Eu sou Ivan Oliveira!</h3>
-            </div>
-        </div> -->
         <div id="secRight carro-sel">
             <div id="meuCarrossel" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
@@ -67,7 +68,8 @@
                 </ul>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="1">
-                        <div class="bg-dark text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
+                        <div
+                            class="text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
                             <!-- <img class="d-block w-100"src="images/tech/Programmer1.jpg" alt=""> -->
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
@@ -111,18 +113,20 @@
 
     <!-- ================================== SECTION 2 ================================== -->
     <section id="myWorks" class="detalhada d-md-flex">
-        <div>
-            <a href="https://ivanindaia.github.io/jogo-da-memoria/" target="_blank">Jogo da Memoria</a>
-        </div>
-        <div>
-            <a href="https://ivanindaia.github.io/html-css/projeto-cordel/" target="_blank">Cordel</a>
-        </div>
-        <div>
-            <a href="https://ivanindaia.github.io/Google_Glass/index.html" target="_blank">Google-Glass</a>
-        </div>
-        <div>
-            <a href="https://ivanindaia.github.io/projeto-android/" target="_blank">Projeto Android</a>
-        </div>
+        <!-- <div id="myWork">
+            <div>
+                <a href="https://ivanindaia.github.io/jogo-da-memoria/" target="_blank">Jogo da Memoria</a>
+            </div>
+            <div>
+                <a href="https://ivanindaia.github.io/html-css/projeto-cordel/" target="_blank">Cordel</a>
+            </div>
+            <div>
+                <a href="https://ivanindaia.github.io/Google_Glass/index.html" target="_blank">Google-Glass</a>
+            </div>
+            <div>
+                <a href="https://ivanindaia.github.io/projeto-android/" target="_blank">Projeto Android</a>
+            </div>
+        </div> -->
     </section>
 
     <!-- ================================== SECTION 3 ================================== -->
@@ -156,7 +160,7 @@
 
     <!-- ================================== SECTION 5 ================================== -->
     <section id="about" class="normal">
-        
+
     </section>
 
     <!-- ================================== SECTION FOOTER ================================== -->
