@@ -24,43 +24,10 @@ body {
 }
 
 /* ========== CABEÇALHO ========== */
-/* === Left ==== */
-#headerLeft {
-    /*border: 1px solid red;*/
-
-    overflow: hidden;
-    width: 64%;
-    height: 270px;
-    padding: 25px 10px 25px 40px;
-    float: left;
-    /* border: 1px solid black; */
-}
-
-#headerLeft>h3 {
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    margin: 10px;
-    margin-left: 0px;
-    /* padding: 0.1rem; */
-    /* border: 1px solid black; */
-}
-
 #nome {
     font-family: 'lora-regular', sans-serif;
     font-size: 35px;
     /* border: 1px solid black; */
-}
-
-/* === Right ==== */
-#headerRight {
-    /*border: 1px solid red;*/
-
-    overflow: hidden;
-    width: 25%;
-    height: 250px;
-    padding: 5px;
-    float: right;
-    text-align: right;
 }
 
 #inage {

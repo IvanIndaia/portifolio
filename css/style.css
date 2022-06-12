@@ -5,25 +5,18 @@ body {
     /* background-image: url(images/back.jpeg); */
     background-size: contain;
     background-attachment: fixed;
-    /* overflow: hidden; */
     margin-top: 0;
-
-
 }
 
 /*  ================================================================
     ========================== HEADER ===========================
     ================================================================ */
 
-/* === Left ==== */
-
 #nome {
     font-family: 'lora-regular', sans-serif;
     font-size: 35px;
     /* border: 1px solid black; */
 }
-
-/* === Right ==== */
 
 #inage {
     width: 180px;
@@ -53,7 +46,7 @@ a {
 }
 
 .photoPerfil {
-    width: 4%;
+    width: 10%;
 } 
 
 .photoPerfil>div>img {
@@ -139,33 +132,28 @@ section {
     /* background-attachment: fixed; */
 }
 
-.detalhada>div {
-    /* border: 1px solid black; */
-    /* width: 100%;
-    padding: 10px;
-    margin: 10px; */
-}
-
 #perfil {
     width: 100%;
-    /* opacity: 0.9; */
-    /* border: 2px solid rgba(0, 0, 0, 0.258); */
     border-radius: 5%;
-    /* background-color: rgba(212, 207, 207, 0.059); */
 }
 
 #home {
     background-image: url(../images/tech/Programmer4.jpg);
     background-size: cover;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center; */
-    /* border: 1px solid white; */
 }
 
 #home>div {
-    margin-top: 150px;
+    margin-top: 200px;
+}
+
+section>div>h4 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+}
+
+section>div>h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
 }
 
 #carrocel {
@@ -174,7 +162,7 @@ section {
 
 #myWorks {
     background-image: url(../images/NY-City.png);
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 
 #myWorks>div {
@@ -233,11 +221,11 @@ section {
     top: 0;
 }
 
-#starter {
+/* #starter {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(67, 1, 1);
     color: white;
-}
+} */
 
 /* #welcome {
     font-family: 'poppins', 'poppins-light', 'poppins-medium';

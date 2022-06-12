@@ -1,9 +1,16 @@
 /* ================================== Fonts ================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+/* font-family: 'Raleway', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+/* font-family: 'Kurale', serif; */
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+/* font-family: 'Mukta', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+/* font-family: 'Space Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* font-family: 'Indie Flower', cursive; */
+
 
 @font-face {
     font-family: 'lora-bold';
