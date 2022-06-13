@@ -73,36 +73,35 @@ a {
     ============================ BODY ==============================
     ================================================================ */
 
-.corpo {
+/* .corpo {
     padding: 25px;
     margin-top: 300px;
     display: block;
     border-bottom: 1px solid grey;
-}
+} */
 
-.titulo {
+/* .titulo {
     background-color: rgba(128, 128, 128, 0.250);
     text-align: center;
     padding: 7px;
     font-size: 22px;
-}
+} */
 
-.titulo:hover {
+/* .titulo:hover {
     background-color: rgb(212, 215, 218);
     transition: 0.5s;
-}
+} */
 
-#obj {
+/* #obj {
     text-align: center;
-}
+} */
 
-h3>p {
+/* h3>p {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-family: 'Mukta', sans-serif;
     text-align: justify;
     font-size: 22px;
-    /* padding-top: 2px; */
-}
+} */
 
 /* ======================== SECTION ======================== */
 section {
@@ -112,15 +111,14 @@ section {
     line-height: 2em;
     padding: 10px;
     font-size: 3.5vw;
-    height: 100vh;
-    box-shadow: 1px 1px 8000px rgba(255, 0, 0, 0.468);
+    height: 110vh;
+    box-shadow: 1px 1px 8000px rgba(179, 255, 0, 0.468);
 }
 
 /* ============= SECTION NORMAL ============= */
 .normal {
     background-color: black;
     color: white;
-    /* box-shadow: 1px 1px 80px red; */
 }
 
 /* ============= SECTION DETALHADA ============= */
@@ -129,13 +127,14 @@ section {
     /* background-image: url(); */
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
     background-size: cover;
-    /* background-attachment: fixed; */
 }
 
 #perfil {
     width: 100%;
     border-radius: 5%;
 }
+
+/* ============= HOME SECTION ============= */
 
 #home {
     background-image: url(../images/tech/Programmer4.jpg);
@@ -160,7 +159,7 @@ section {
     box-decoration-break: slice;
 }
 #stng {
-    color: rgb(88, 8, 8);
+    color: rgb(196, 255, 3);
     box-shadow: 1px 2px 30px black;
     padding: 3px;
     border-radius: 15%;
@@ -174,9 +173,21 @@ section {
     color: rgba(255, 255, 255, 0.358);
 }
 
-#carrocel {
+
+/* ============= CAROUSEL SECTION ============= */
+#carrossel {
     background-image: url(../images/personalizado.jpg);
 }
+
+.pgbr-carousel-item {
+    margin-top: 7%;
+    height: 450px;
+    border-radius: 1%;
+    align-content: center;
+    align-items: ceter;
+}
+
+/* ============= WORK SECTION ============= */
 
 #myWorks {
     background-image: url(../images/NY-City.png);
@@ -193,15 +204,6 @@ section {
     position: absolute;
 }
 
-#others {
-    background-image: url(../images/tech/LaseCity.png)
-}
-
-.pgbr-carousel-item {
-    height: 450px;
-    border-radius: 1%;
-}
-
 .blocos {
     width: 850px;
     /* height: 350px; */
@@ -209,6 +211,81 @@ section {
     box-shadow: 1px 2px 7px;
     border-radius: 2%;
     margin: 50px;
+}
+
+/* ============= SUMMARY SECTION ============= */
+
+#summary {
+    background-color: white;
+    color: black;
+}
+
+#summary>#paragrafo {
+    display: flex;
+    align-items: baseline;
+    padding: 7px;
+}
+
+#summary>#paragrafo>div {
+    display: flex;
+    align-items: baseline;
+    overflow: hidden;
+    padding: 10px;
+    width: 650px;
+    height: auto;
+    margin: 2px;
+    font-family: 'Indie Flower', cursive;
+    text-align: justify;
+    letter-spacing: 0.1rem;
+}
+#summary>#paragrafo>div>h4 {
+    box-shadow: 1px 1px 25px rgba(6, 6, 6, 0.288);
+    border-radius: 3%;
+    font-size: 23px;
+    padding: 10px;
+}
+
+#summary>span>h3 {
+    margin-top: 53px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* ============= ABOUT-ME SECTION ============= */
+
+#aboutMe>#paragrafo {
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+}
+
+#aboutMe>#paragrafo>div {
+    overflow: hidden;
+    padding: 15px;
+    width: 650px;
+    height: 500px;
+    margin: 10px;
+    font-family: 'Indie Flower', cursive;
+    text-align: justify;
+    letter-spacing: 0.1rem;
+    /* border: 1px solid red; */
+}
+#aboutMe>#paragrafo>div>h4 {
+    box-shadow: 1px 1px 25px rgba(255, 255, 255, 0.158);
+    border-radius: 3%;
+    padding: 10px;
+}
+
+#aboutMe>span>h3 {
+    margin-top: 53px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* ============= OTHERS SECTION ============= */
+
+#others {
+    background-image: url(../images/tech/LaseCity.png)
 }
 
 /*  ================================================================
@@ -278,7 +355,7 @@ section {
 }
 
 /* ============================== MEDIA ============================== */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 
     /*  ====================================================
     ====================== HEADER MEDIA=====================
@@ -312,8 +389,8 @@ section {
     ======================================================== */
 
     #home {
-        display: flex;
-        align-content: center;
+        display: block;
+        flex-direction: column;
     }
 
     .detalhada>div {
@@ -326,6 +403,33 @@ section {
         border-radius: 1%;
     }
 
+    /* ========== SUMMARY SECTION MEDIA ========== */
+    
+    #summary>#paragrafo {
+        display: block;
+        align-items: flex-start;
+        padding: 2px;
+    }
+    
+    #summary>#paragrafo>div {
+        overflow: hidden;
+        padding: 7px;
+        width: auto;
+        height: auto;
+        letter-spacing: 0.05rem;
+    }
+    #summary>#paragrafo>div>h4 {
+        box-shadow: 1px 1px 25px rgba(6, 6, 6, 0.288);
+        border-radius: 3%;
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    #summary>span>h3 {
+        margin-top: 53px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
 
     /*  ====================================================
     ====================== FOOTER MEDIA ====================
