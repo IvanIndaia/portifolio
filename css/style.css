@@ -107,6 +107,7 @@ section {
     position: static;
     padding-top: 10vh;
     /* padding-bottom: 10vh; */
+    overflow: hidden;
     line-height: 2em;
     padding: 10px;
     font-size: 3.5vw;
@@ -190,27 +191,33 @@ section {
 
 #myWorks {
     background-image: url(../images/NY-City.png);
-    /* opacity: 0.5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#myWorks>div {
+#myWorks>#bloco>a {  
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 300px;
-    border: 1px solid black;
-
+    height: 300px;
+    box-shadow: 1px 2px 3px black;  
+    color: black;
+    box-shadow: 1px 2px 3px black;
+    border-radius: 3%;
+    background-color: rgba(255, 255, 255, 0.46);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
 }
 
-#myWork {
-    position: absolute;
+#myWorks>#bloco>a:hover {
+    transition: 0.9s;
+    background-color: rgba(123, 4, 4, 0.545);
+    color: white;
 }
 
-.blocos {
-    width: 850px;
-    /* height: 350px; */
-    border: 1px solid black;
-    box-shadow: 1px 2px 7px;
-    border-radius: 2%;
-    margin: 50px;
-}
 
 /* ============= SUMMARY SECTION ============= */
 
@@ -314,8 +321,19 @@ section {
     top: 0;
 }
 
+/* ============= CONTACT SECTION ============= */
 #contact {
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+#contact>div {
+    /* display: flex;
+    flex-direction: column; */
+    
+    /* background-color: red; */
 }
 
 /* #starter {
@@ -353,7 +371,7 @@ section {
 }
 
 /* ============================== MEDIA ============================== */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
     /*  ====================================================
     ====================== HEADER MEDIA=====================
@@ -393,6 +411,19 @@ section {
         border-radius: 1%;
     }
 
+    /* ======= WORK SECTION MEDIA ======= */
+
+    #myWorks {
+        background-image: url(../images/NY-City.png);
+        display: grid;
+    }
+    
+    #myWorks>#bloco>a {
+        margin-top: 15px;
+        width: 300px;
+        height: 100px;
+    }
+
     /* ========== SUMMARY SECTION MEDIA ========== */
     
     #summary>#paragrafo {
@@ -415,15 +446,6 @@ section {
     }
 
     /* ======= ABOUT-ME SECTION MEDIA ======= */
-    
-    #summary>#paragrafo>div>h4 {
-        border-radius: 2%;
-        font-size: 14px;
-        padding: 5px;
-    }
-
-
-    /* === */
 
     #aboutMe>#paragrafo {
         display: block;
@@ -439,7 +461,7 @@ section {
     }
     #aboutMe>#paragrafo>div>h4 {
         border-radius: 2%;
-        font-size: 14px;
+        font-size: 12px;
         padding: 5px;
     }
 
