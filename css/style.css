@@ -149,18 +149,18 @@ section {
 #home>div>h4 {
     /* font-family: 'Indie Flower', cursive; */
     font-family: 'Space Mono', monospace;
-    font-size: 30px;
+    font-size: 25px;
     
 }
 
 #home>div>h1 {
     /* font-family: 'Indie Flower', cursive; */
     font-family: 'Space Mono', monospace;
-    font-size: 35px;
+    font-size: 28px;
     box-decoration-break: slice;
 }
 #stng {
-    color: rgb(24, 17, 115);
+    color: rgb(88, 8, 8);
     box-shadow: 1px 2px 30px black;
     padding: 3px;
     border-radius: 15%;
@@ -237,6 +237,10 @@ section {
     align-items: center;
     flex-direction: column;
     top: 0;
+}
+
+#contact {
+    height: 50vh;
 }
 
 /* #starter {
