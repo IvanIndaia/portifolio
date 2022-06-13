@@ -15,7 +15,6 @@ body {
 #nome {
     font-family: 'lora-regular', sans-serif;
     font-size: 35px;
-    /* border: 1px solid black; */
 }
 
 #inage {
@@ -112,7 +111,7 @@ section {
     padding: 10px;
     font-size: 3.5vw;
     height: 110vh;
-    box-shadow: 1px 1px 8000px rgba(179, 255, 0, 0.468);
+    box-shadow: 1px 1px 8000px rgba(148, 10, 10, 0.468);
 }
 
 /* ============= SECTION NORMAL ============= */
@@ -159,7 +158,7 @@ section {
     box-decoration-break: slice;
 }
 #stng {
-    color: rgb(196, 255, 3);
+    color: rgb(103, 10, 10);
     box-shadow: 1px 2px 30px black;
     padding: 3px;
     border-radius: 15%;
@@ -363,40 +362,38 @@ section {
     #myNav {
         margin-left: 10px;
     }
-
-    .barraNav {
-        
-    }
     
     .photoPerfil {
         width: 15%;
     } 
-    
-    .photoPerfil>div>img {
-      
-    }
-    
-    .navegacao {
-        
-    }
-    
-    .navbar {
-        
-    }
 
     /*  ====================================================
     ======================= BODY MEDIA =====================
     ======================================================== */
 
-    #home {
-        display: block;
-        flex-direction: column;
+    section {
+        position: static;
+        padding-top: 10vh;
+        /* padding-bottom: 10vh; */
+        line-height: 2em;
+        padding: 10px;
+        font-size: 3.5vw;
+        height: 92vh;
     }
 
     .detalhada>div {
         /* display: block; */
         text-align: center;
     }
+    
+    /* ========== HOME SECTION MEDIA ========== */
+
+    #home {
+        display: block;
+        flex-direction: column;
+    }
+    
+    /* ========== CAROUSEL SECTION MEDIA ========== */
 
     .pgbr-carousel-item {
         height: 350px;
