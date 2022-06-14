@@ -82,12 +82,13 @@ section {
     padding: 10px;
     font-size: 3.5vw;
     height: 110vh;
-    box-shadow: 10px 10px 500px rgba(148, 10, 10, 0.468);
+    /* box-shadow: 10px 10px 500px rgba(148, 10, 10, 0.468); */
 }
 
 /* ============= SECTION NORMAL ============= */
 .normal {
-    background-color: black;
+    background-image: url(../images/tech/Programmer3.jpg);
+    background-attachment: fixed;
     color: white;
 }
 
@@ -171,10 +172,19 @@ section {
     font-family: 'Space Mono', monospace;
 }
 
+#carrossel>span>h3 {
+    margin-top: 53px;
+    height: 20px;
+    text-align: center;
+    justify-items: center;
+    font-family: 'Indie Flower', cursive;
+}
+
 /* ============= WORK SECTION ============= */
 
 #myWorks {
-    background-image: url(../images/NY-City.png);
+    /* background-image: url(../images/tech/Programmer2.jpg); */
+    background-color: black;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -217,8 +227,8 @@ section {
 /* ============= SUMMARY SECTION ============= */
 
 #summary {
-    background-color: white;
-    color: black;
+    color: white;
+    background-color: black;
 }
 
 #summary>#paragrafo {
@@ -241,7 +251,7 @@ section {
 }
 
 #summary>#paragrafo>div>h4 {
-    box-shadow: 1px 1px 25px rgba(6, 6, 6, 0.288);
+    box-shadow: 1px 1px 25px rgba(238, 236, 236, 0.179);
     border-radius: 3%;
     font-size: 23px;
     padding: 10px;
@@ -286,10 +296,6 @@ section {
 
 /* ============= OTHERS SECTION ============= */
 
-#others {
-    background-image: url(../images/tech/LaseCity.png)
-}
-
 /*  ================================================================
     ============================ FOOTER ============================
     ================================================================ */
@@ -321,6 +327,7 @@ section {
 /* ============= CONTACT SECTION ============= */
 
 #contact {
+    background-image: url(../images/tijolo.jpg);
     height: 50vh;
     display: flex;
     flex-direction: column;
