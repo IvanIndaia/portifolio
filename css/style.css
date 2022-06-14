@@ -283,25 +283,6 @@ section {
     text-align: center;
     font-family: 'Indie Flower', cursive;
 }
-/* ============= CONTACT SECTION ============= */
-
-#contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-#contact>div>p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    margin-bottom: 0px;
-}
-
-#contact>div>a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.764);
-}
 
 /* ============= OTHERS SECTION ============= */
 
@@ -338,18 +319,28 @@ section {
 }
 
 /* ============= CONTACT SECTION ============= */
+
 #contact {
     height: 50vh;
     display: flex;
     flex-direction: column;
-    align-content: flex-end;
+    justify-content: flex-end;
 }
 
-#contact>div {
-    /* display: flex;
-    flex-direction: column; */
+#contact>div>p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
 
-    /* background-color: red; */
+#contact>div>a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.764);
+}
+
+#contact>div>a>.imgIcon {
+    width: 30px;
 }
 
 /* #starter {
@@ -496,6 +487,29 @@ section {
         padding: 5px;
     }
 
+    /* ============= CONTACT SECTION ============= */
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    #contact>div>p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    #contact>div>a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.764);
+    }
+
+    #contact>div>a>.imgIcon {
+        width: 20px;
+    }
 
     /*  ====================================================
     ====================== FOOTER MEDIA ====================
