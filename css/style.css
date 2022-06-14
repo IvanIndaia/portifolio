@@ -285,14 +285,21 @@ section {
 }
 /* ============= CONTACT SECTION ============= */
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 #contact>div>p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 30px;
+    margin-bottom: 0px;
 }
 
 #contact>div>a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     color: rgba(0, 0, 0, 0.764);
 }
 
