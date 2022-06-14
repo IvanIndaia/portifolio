@@ -285,7 +285,16 @@ section {
 }
 /* ============= CONTACT SECTION ============= */
 
+#contact>div>p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
 
+#contact>div>a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.764);
+}
 
 /* ============= OTHERS SECTION ============= */
 
