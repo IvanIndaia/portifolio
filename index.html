@@ -15,12 +15,7 @@
 
 <body>
     <!-- ================================== HEADER ================================== -->
-    <div class="barraNav">
-        <!-- <div class="photoPerfil bg-dark">
-            <div id="img">
-                <img src="images/IvanAlex.png" alt="Ivan Oliveira">
-            </div>
-        </div> -->
+    <div class="barraNav">''
         <div class="navegacao bg-dark">
             <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
                 <div class="photoPerfil bg-dark">
@@ -35,12 +30,12 @@
                 <div id="myNav" class="collapse navbar-collapse justify-content-end">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#carrossel">Carreira</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#summary">Resumo</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#myWorks">Trabalhos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#aboutMe">Sobre Mim</a></li>
-                        <li class="nav-item"><a class="nav-link" href="html/curriculo.html">Currículo</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#carrossel">Career</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#myWorks">Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#aboutMe">About me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="html/curriculo.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                         <!-- <li class="btn btn-primary">Comprar</li> -->
                     </ul>
                 </div>
@@ -53,6 +48,7 @@
         <div>
             <h4>Olá, Seja Bem-Vindo</h4>
             <h1>Eu Sou <strong id="stng">Ivan Oliveira</strong></h1>
+
         </div>
         <div>
             <h3>Front-End Developer</h3>
@@ -76,9 +72,10 @@
                 </ul>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="7">
-                        <div class="bg-dark text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
+                        <div
+                            class="bg-dark text-light d-flex justify-content-center align-items-center pgbr-carousel-item">
                             <div>
-                                <img class="careerIMG"  src="images/tech/carreira-04.png" alt="">
+                                <img class="careerIMG" src="images/tech/carreira-04.png" alt="">
                             </div>
                             <div class="carousel-caption hcinco">
                                 <h5>TK Logística do Brasil - 05/2022 a atual</h5>
@@ -141,46 +138,93 @@
             </h3>
         </span>
         <div id="paragrafo">
-            <div>
+            <div id="lef">
                 <h4>
                     <p>
-                        Realização das fases de elaboração de requisitos e da programação de sistemas, desenvolvimento,
+                        Realização das fases de elaboração de requisitos e da programação de sistemas,
+                        desenvolvimento,
                         teste e implementação.
                     </p>
                     <br>
                     <p>
-                        Identificação e orientação na solução de problemas | Elaboração, coordenação e orientação em
+                        Identificação e orientação na solução de problemas | Elaboração, coordenação e
+                        orientação em
                         atividades de correção e manutenção dos programas.
                     </p>
-                    <br>
-                    <p>
-                        Codificação e realização de testes | Preparação de documentação e produção de manuais de
-                        operação.
-                    </p>
-                    <br>
-                    <p>
-                        Implementação e manutenção de novos sistemas | Ajuste de sistemas existentes para acompanhamento
-                        das mudanças e necessidades dos usuários.
-                    </p>
                 </h4>
+                <button class="btn btn-dark" data-toggle="modal" data-target="#meuModal1">
+                    Leia Mais...
+                </button>
+                <div class="modal" id="meuModal1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 style="color: black; font-size: 20px;">
+                                    <p>
+                                        Codificação e realização de testes | Preparação de documentação e produção de
+                                        manuais de
+                                        operação.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Implementação e manutenção de novos sistemas | Ajuste de sistemas existentes
+                                        para acompanhamento
+                                        das mudanças e necessidades dos usuários.
+                                    </p>
+                                </h1>
+                            </div>
+                            <div class="modal-footer">
+                                <h5 style="color: rgb(16, 18, 163); font-size: 15px;">
+                                    “Ainda que eu falasse a língua dos Anjos,
+                                    sem AMOR eu nada seria” Cor. 13-1
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div style="align-self: center;">
+            <div id="rig">
                 <h4>
+                    <p>
+                        Administração de banco de dados, envolvendo manutenção de estrutura e implementação
+                        de novos
+                        processos de software, métodos de acesso e dimensionamento de hardware.
+                    </p>
                     <br>
                     <p>
                         Administração de banco de dados, envolvendo manutenção de estrutura e implementação de novos
                         processos de software, métodos de acesso e dimensionamento de hardware.
                     </p>
-                    <br>
-                    <p>
-                        Definição de controle de acesso aos recursos | Participação na documentação de rotina |
-                        Acompanhamento de desempenho dos recursos técnicos instalados.
-                    </p>
-                    <br>
-                    <p>
-                        Proatividade | Boa comunicação | Assertividade | Flexibilidade.
-                    </p>
                 </h4>
+                <button class="btn btn-dark" data-toggle="modal" data-target="#meuModal2">
+                    Leia Mais...
+                </button>
+                <div class="modal" id="meuModal2">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 style="color: black; font-size: 20px;">
+                                    <p>
+                                        Definição de controle de acesso aos recursos | Participação na documentação de
+                                        rotina |
+                                        Acompanhamento de desempenho dos recursos técnicos instalados.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Proatividade | Boa comunicação | Assertividade | Flexibilidade.
+                                    </p>
+                                </h1>
+                            </div>
+                            <div class="modal-footer">
+                                <h5 style="color: rgb(16, 18, 163); font-size: 15px;">
+                                    “Ainda que eu falasse a língua dos Anjos,
+                                    sem AMOR eu nada seria” Cor. 13-1
+
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -200,9 +244,9 @@
         </div>
         <div id="bloco">
             <a href="html/jogoDaVelha.html" target="_blank">Jogo da Velha</a>
-            <a href="" style="color: rgba(255, 128, 0, 0.592);">não disponível</a>
-            <a href="" style="color: rgba(255, 128, 0, 0.592);">não disponível</a>
-            <a href="" style="color: rgba(255, 128, 0, 0.592);">não disponível</a>
+            <a href="">não disponível</a>
+            <a href="">não disponível</a>
+            <a href="">não disponível</a>
         </div>
     </section>
 
@@ -279,10 +323,14 @@
             <p>Copyright &copy; 2022 - by Ivan Oliveira </p>
         </div>
         <div>
-            <a href="https://www.facebook.com/ivan.indaia" target="_blank"><img class="imgIcon" src="icons/facebook.png" alt=""> Facebook |</a> 
-            <a href="https://twitter.com/IvanIndaia" target="_blank"><img  class="imgIcon" src="icons/twitter.png" alt=""> Twiter |</a> 
-            <a href="https://www.instagram.com/ivan.indaia/" target="_blank"><img  class="imgIcon" src="icons/instagram.png" alt=""> Instagram |</a>
-            <a href="https://github.com/IvanIndaia" target="_blank"><img  class="imgIcon" src="icons/github.png" alt=""> GitHub</a>
+            <a href="https://www.facebook.com/ivan.indaia" target="_blank"><img class="imgIcon" src="icons/facebook.png"
+                    alt=""> Facebook |</a>
+            <a href="https://twitter.com/IvanIndaia" target="_blank"><img class="imgIcon" src="icons/twitter.png"
+                    alt=""> Twiter |</a>
+            <a href="https://www.instagram.com/ivan.indaia/" target="_blank"><img class="imgIcon"
+                    src="icons/instagram.png" alt=""> Instagram |</a>
+            <a href="https://github.com/IvanIndaia" target="_blank"><img class="imgIcon" src="icons/github.png" alt="">
+                GitHub</a>
         </div>
     </section>
 
