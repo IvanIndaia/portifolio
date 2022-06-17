@@ -286,7 +286,7 @@ section {
 
 #aboutMe>#paragrafo {
     display: flex;
-    align-items: baseline;
+    justify-content: center;
     padding: 10px;
 }
 
@@ -296,8 +296,8 @@ section {
     background-color: rgba(0, 0, 0, 0.871);
     overflow: hidden;
     padding: 15px;
-    width: 650px;
-    height: 500px;
+    width: 90%;
+    height: 75%;
     margin: 10px;
     font-family: var(--font-destaque);
     text-align: justify;
@@ -483,7 +483,6 @@ section {
 
     #summary>#paragrafo>div {
         display: flex;
-        flex-direction: ;
         overflow: hidden;
         padding: 5px;
         width: auto;
@@ -538,18 +537,19 @@ section {
     }
 
     #contact>div>p {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: var(--font-padrao);
         font-size: 20px;
         margin-bottom: 0px;
     }
 
     #contact>div>a {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: var(--font-padrao);
         font-size: 20px;
     }
 
     #contact>div>a>.imgIcon {
         width: 20px;
+        box-shadow: 1px 2px 12px rgba(255, 255, 255, 0.623);
     }
 
     /*  ====================================================
