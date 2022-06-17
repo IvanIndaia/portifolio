@@ -1,8 +1,21 @@
 @charset "UTF-8";
 @import url("fonts.css");
 
+:root {
+    --cor0: #EFF7CF;
+    --cor1: #BAD9B5;
+    --cor2: #AB8C89;
+    --cor3: #732C2C;
+    --cor4: #420C14;
+    /* --cor5: #063d1e; */
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Indie Flower', cursive;
+    --font-lora: 'lora-regular', sans-serif;
+    --font-space: 'Space Mono', monospace;
+}
+
 body {
-    /* background-image: url(images/back.jpeg); */
     background-size: contain;
     background-attachment: fixed;
     margin-top: 0;
@@ -13,7 +26,7 @@ body {
     ================================================================ */
 
 #nome {
-    font-family: 'lora-regular', sans-serif;
+    font-family: var(--font-lora);
     font-size: 35px;
 }
 
@@ -34,14 +47,12 @@ a {
 }
 
 .barraNav {
-    position: sticky;
-    top: 0;
+    /* position: sticky; */
+    /* top: 0; */
     display: flex;
     overflow: auto;
     height: 80%;
-    /* align-content: space-between; */
     padding: 0px;
-    /* border: 14px solid black; */
 }
 
 .photoPerfil {
@@ -87,7 +98,8 @@ section {
 
 /* ============= SECTION NORMAL ============= */
 .normal {
-    background-image: url(../images/tech/Programmer3.jpg);
+    /* background-image: url(../images/tech/Programmer3.jpg); */
+    background-color: black;
     background-attachment: fixed;
     color: white;
 }
@@ -96,6 +108,8 @@ section {
 .detalhada {
     color: white;
     /* background-image: url(); */
+    background-color: black;
+    background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
     background-size: cover;
 }
@@ -119,16 +133,18 @@ section {
 
 #home>div>h4 {
     /* font-family: 'Indie Flower', cursive; */
-    font-family: 'Space Mono', monospace;
+    font-family: var(--font-space);
     font-size: 25px;
+    color: #EFF7CF;
 
 }
 
 #home>div>h1 {
     /* font-family: 'Indie Flower', cursive; */
-    font-family: 'Space Mono', monospace;
+    font-family: var(--font-space);
     font-size: 28px;
     box-decoration-break: slice;
+    color: #EFF7CF;
 }
 
 #stng {
@@ -140,44 +156,46 @@ section {
 
 #home>div>h3 {
     margin-top: 90px;
-    font-family: 'Space Mono', monospace;
+    font-family: var(--font-space);
     font-size: 23px;
     box-shadow: 1px 2px 30px black;
-    color: rgba(255, 255, 255, 0.358);
+    color: #eff7cf6e;
 }
 
 
-/* ============= CAROUSEL SECTION ============= */
+/* ============= CARREIRA SECTION ============= */
 #carrossel {
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.752), red, black); */
     background-color: black;
+    background-attachment: fixed;
+}
+
+.careerIMG {
+    opacity: 0.2;
 }
 
 .pgbr-carousel-item {
-    margin: 0;
-    height: 450px;
-    width: auto;
+    margin: 45px;
     border-radius: 1%;
-    align-content: center;
-    align-items: ceter;
-    box-shadow: 1px 1px 25px white;
+    height: 400px;
 }
 
 .hcinco>h5 {
-    font-family: 'Space Mono', monospace;
+    font-family: var(--font-space);
 }
 
 .hcinco>p {
     color: rgb(185, 182, 182);
-    font-family: 'Space Mono', monospace;
+    font-family: var(--font-space);
 }
 
 #carrossel>span>h3 {
-    margin-top: 53px;
+    margin-top: 95px;
     height: 20px;
     text-align: center;
     justify-items: center;
-    font-family: 'Indie Flower', cursive;
+    font-family: var(--font-destaque);
+    color: var(--cor0);
 }
 
 /* ============= WORK SECTION ============= */
@@ -200,14 +218,13 @@ section {
     box-shadow: 1px 2px 3px black;
     border-radius: 3%;
     background-color: rgba(23, 22, 22, 0.793);
-    font-family: 'Indie Flower', cursive;
+    font-family: var(--font-destaque);
     font-size: 30px;
 }
 
 #myWorks>#bloco {
     display: flex;
     margin-top: 100PX;
-    /* overflow: hidden; */
 }
 
 #myWorks>#bloco>a:hover {
@@ -221,7 +238,7 @@ section {
     height: 20px;
     text-align: center;
     justify-items: center;
-    font-family: 'Indie Flower', cursive;
+    font-family: var(--font-destaque);
 }
 
 /* ============= SUMMARY SECTION ============= */
@@ -229,6 +246,7 @@ section {
 #summary {
     color: white;
     background-color: black;
+    background-attachment: fixed;
 }
 
 #summary>#paragrafo {
@@ -260,7 +278,7 @@ section {
 #summary>span>h3 {
     margin-top: 53px;
     text-align: center;
-    font-family: 'Indie Flower', cursive;
+    font-family: var(--font-destaque);
 }
 
 /* ============= ABOUT-ME SECTION ============= */
@@ -277,7 +295,7 @@ section {
     width: 650px;
     height: 500px;
     margin: 10px;
-    font-family: 'Indie Flower', cursive;
+    font-family: var(--font-destaque);
     text-align: justify;
     letter-spacing: 0.1rem;
 }
@@ -291,7 +309,7 @@ section {
 #aboutMe>span>h3 {
     margin-top: 53px;
     text-align: center;
-    font-family: 'Indie Flower', cursive;
+    font-family: var(--font-destaque);
 }
 
 /* ============= OTHERS SECTION ============= */
@@ -327,7 +345,9 @@ section {
 /* ============= CONTACT SECTION ============= */
 
 #contact {
-    background-image: url(../images/tijolo.jpg);
+    background-color: black;
+    /* background-image: url(../images/tech/Programmer4.jpg); */
+    background-attachment: fixed;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -375,7 +395,7 @@ section {
 }
 
 .hero-text {
-    font-family: 'lora-bold';
+    font-family: var(--font-lora);
     text-align: left;
     position: absolute;
     top: 50%;
@@ -428,7 +448,7 @@ section {
     /* ======= WORK SECTION MEDIA ======= */
 
     #myWorks {
-        background-image: url(../images/NY-City.png);
+        /* background-image: url(../images/NY-City.png); */
         display: flex;
         flex-direction: column;
         align-content: space-between;
