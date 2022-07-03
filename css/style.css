@@ -127,7 +127,7 @@ section {
 }
 
 #home>div {
-    margin-top: 200px;
+    margin-top: 180px;
 }
 
 #home>div>h4 {
@@ -227,11 +227,11 @@ section {
 }
 
 #myWorks>#bloco>a:hover {
-    transition: 1.5s;
+    transition: 1.2s;
     background-color: rgba(255, 255, 255, 0.716);
     color: black;
-    width: 270px;
-    height: 230px;
+    width: 250px;
+    height: 200px;
 }
 
 #myWorks>span>h3 {
@@ -473,6 +473,11 @@ section {
         overflow: hidden;
     }
 
+    #myWorks>#bloco>a:hover {
+        width: 115px;
+        height: 115px;
+    }
+
     /* ========== SUMMARY SECTION MEDIA ========== */
 
     #summary>#paragrafo {
@@ -499,7 +504,6 @@ section {
         margin: 25px;
         background-color: yellow;
     } */
-
 
     #summary>#paragrafo>div>h4 {
         border-radius: 2%;
