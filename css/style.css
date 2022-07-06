@@ -56,12 +56,12 @@ a {
 }
 
 .photoPerfil {
-    width: 10%;
+    width: 7%;
 }
 
 .photoPerfil>div>img {
     padding: 0;
-    width: 45px;
+    width: 35px;
     height: 100%;
     margin-left: 10%;
     margin-right: 10%;
@@ -133,7 +133,7 @@ section {
 #home>div>h4 {
     /* font-family: 'Indie Flower', cursive; */
     font-family: var(--font-space);
-    font-size: 25px;
+    font-size: 23px;
     color: #EFF7CF;
 
 }
@@ -141,7 +141,7 @@ section {
 #home>div>h1 {
     /* font-family: 'Indie Flower', cursive; */
     font-family: var(--font-space);
-    font-size: 28px;
+    font-size: 27px;
     box-decoration-break: slice;
     color: #EFF7CF;
 }
