@@ -282,6 +282,11 @@ section {
     font-family: var(--font-destaque);
 }
 
+#leiaMais {
+    color: red;
+    margin-top: 5px;
+}
+
 /* ============= ABOUT-ME SECTION ============= */
 
 #aboutMe>#paragrafo {
