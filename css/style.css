@@ -204,13 +204,14 @@ section {
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
 #myWorks>#bloco>a {
     color: white;
     margin: 10px auto auto auto;
     width: 220px;
-    height: 180px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,7 +224,8 @@ section {
 
 #myWorks>#bloco {
     display: flex;
-    margin-top: 25PX;
+    height: auto;
+    margin-top: 25px;
 }
 
 #myWorks>#bloco>a:hover {
@@ -409,160 +411,4 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-}
-
-/* ============================== MEDIA ============================== */
-@media screen and (max-width: 600px) {
-
-    /*  ====================================================
-    ====================== HEADER MEDIA=====================
-    ======================================================== */
-    #myNav {
-        margin-left: 10px;
-    }
-
-    .photoPerfil {
-        width: 15%;
-    }
-
-    /*  ====================================================
-    ======================= BODY MEDIA =====================
-    ======================================================== */
-
-    section {
-        height: 100vh;
-    }
-
-    .detalhada>div {
-        /* display: block; */
-        text-align: center;
-    }
-
-    /* ========== HOME SECTION MEDIA ========== */
-
-    #home {
-        display: block;
-        flex-direction: column;
-    }
-
-    /* ========== CAROUSEL SECTION MEDIA ========== */
-
-    .pgbr-carousel-item {
-        height: 350px;
-        border-radius: 1%;
-    }
-
-    /* ======= WORK SECTION MEDIA ======= */
-
-    #myWorks {
-        /* background-image: url(../images/NY-City.png); */
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-    }
-
-    /* #myWorks>span>#titulo {
-        width: 100px;
-        padding: 1px;
-        margin: 0;
-        color: red;
-    } */
-
-    #myWorks>#bloco>a {
-        width: 100px;
-        height: 100px;
-        font-size: 20px;
-    }
-
-    #myWorks>#bloco {
-        overflow: hidden;
-    }
-
-    #myWorks>#bloco>a:hover {
-        width: 115px;
-        height: 115px;
-    }
-
-    /* ========== SUMMARY SECTION MEDIA ========== */
-
-    #summary>#paragrafo {
-        display: block;
-        align-items: flex-start;
-        padding: 1px;
-    }
-
-    #summary>#paragrafo>div {
-        display: flex;
-        overflow: hidden;
-        padding: 5px;
-        width: auto;
-        height: 245px;
-        letter-spacing: 0.05rem;
-        margin: 30px;
-    }
-    /* #summary>#paragrafo>#lef {
-        margin: 25px;
-        background-color: red;
-    }
-
-    #summary>#paragrafo>#rig {
-        margin: 25px;
-        background-color: yellow;
-    } */
-
-    #summary>#paragrafo>div>h4 {
-        border-radius: 2%;
-        font-size: 13px;
-        padding: 5px;
-    }
-
-    /* ======= ABOUT-ME SECTION MEDIA ======= */
-
-    #aboutMe>#paragrafo {
-        display: block;
-        align-items: flex-start;
-        padding: 1px;
-    }
-
-    #aboutMe>#paragrafo>div {
-        padding: 5px;
-        width: auto;
-        height: auto;
-        letter-spacing: 0.05rem;
-    }
-
-    #aboutMe>#paragrafo>div>h4 {
-        border-radius: 2%;
-        font-size: 12px;
-        padding: 5px;
-    }
-
-    /* ============= CONTACT SECTION ============= */
-
-    #contact {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-
-    #contact>div>p {
-        font-family: var(--font-padrao);
-        font-size: 20px;
-        margin-bottom: 0px;
-    }
-
-    #contact>div>a {
-        font-family: var(--font-padrao);
-        font-size: 20px;
-    }
-
-    #contact>div>a>.imgIcon {
-        width: 20px;
-        box-shadow: 1px 2px 12px rgba(255, 255, 255, 0.623);
-    }
-
-    /*  ====================================================
-    ====================== FOOTER MEDIA ====================
-    ======================================================== */
-
 }
